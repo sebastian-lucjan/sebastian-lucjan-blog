@@ -1,21 +1,21 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
-  language: 'en-us',
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/logo.png',
+  title: 'Sebastian Lucjan blog', //TODO: change blog name
+  author: 'Sebastian Lucjan',
+  headerTitle: 'Sebastian Lucjan', //TODO: with title to change haderTitle / frontic
+  description: 'blog simple description',
+  language: 'pl',
+  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app', //TODO: to change after add domain
+  siteRepo: 'https://github.com/sebastian-lucjan/sebastian-lucjan-blog',
+  siteLogo: '/static/images/logo.png', //TODO: make your logo
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
+  email: 'address@yoursite.com', //TODO: email and socials to add or remove
   github: 'https://github.com',
   twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
-  locale: 'en-US',
+  locale: 'pl',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
