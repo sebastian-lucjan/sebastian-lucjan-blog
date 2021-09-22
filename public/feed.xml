@@ -7,9 +7,19 @@
       <language>pl</language>
       <managingEditor>address@yoursite.com (Sebastian Lucjan)</managingEditor>
       <webMaster>address@yoursite.com (Sebastian Lucjan)</webMaster>
-      <lastBuildDate>Sat, 07 Aug 2021 15:32:14 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 23 Sep 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/react-od-kuchni</guid>
+    <title>React od kuchni - komponenty, jsx, key</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/react-od-kuchni</link>
+    <description>React od kuchni</description>
+    <pubDate>Thu, 23 Sep 2021 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Sebastian Lucjan)</author>
+    <category>react</category><category>core</category>
+  </item>
+
   <item>
     <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/new-features-in-v1</guid>
     <title>New features in v1 - Sebastian Łucjan</title>
