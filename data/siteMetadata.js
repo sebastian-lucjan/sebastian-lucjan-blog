@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'Sebastian Lucjan blog', //TODO: change blog name
   author: 'Sebastian Lucjan',
-  headerTitle: 'Sebastian Lucjan', //TODO: with title to change haderTitle / frontic
+  headerTitle: 'frontic.pl', //TODO: with title to change haderTitle / frontic
   description: 'blog simple description',
   language: 'pl',
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app', //TODO: to change after add domain
