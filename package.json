@@ -1,5 +1,5 @@
 {
-  "name": "tailwind-nextjs-starter-blog",
+  "name": "blog",
   "version": "1.1.1",
   "private": true,
   "scripts": {
@@ -22,6 +22,7 @@
     "image-size": "1.0.0",
     "mdx-bundler": "^6.0.1",
     "next": "11.1.2",
+    "next-images": "^1.8.1",
     "next-themes": "^0.0.14",
     "postcss": "^8.3.5",
     "preact": "^10.5.13",

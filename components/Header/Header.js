@@ -1,17 +1,10 @@
 import Link from '@/components/Link'
-import Logo from '@/data/logo.svg'
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import ThemeSwitch from '@/components/ThemeSwitch'
 import MobileNav from '@/components/MobileNav'
-
-// import styled from 'styled-components'
-//
-// const StyledBlogTitle = styled.div`
-//   //font-family: 'Montserrat', 'Arial', serif;
-//   //font-family: 'Montserrat';
-//   //font-weight: black;
-// `
+import Image from 'next/image'
+import logoRocket from '../../public/static/logo-icon-60x60.png'
 
 const Header = () => (
   <header className="flex items-center justify-between py-10">
@@ -19,7 +12,8 @@ const Header = () => (
       <Link href="/" aria-label="Sebastian Lucjan Blog">
         <div className="flex items-center justify-between">
           <div className="mr-3">
-            <Logo />
+            <Image src={logoRocket} aria-label="logo" alt="logo rakieta" />
+            {/*<Logo />*/}
           </div>
           {typeof siteMetadata.headerTitle === 'string' ? (
             <div className="hidden text-2xl font-montserrat font-light xs:block">
