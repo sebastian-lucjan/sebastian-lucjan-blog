@@ -5,6 +5,14 @@ import headerNavLinks from '@/data/headerNavLinks'
 import ThemeSwitch from '@/components/ThemeSwitch'
 import MobileNav from '@/components/MobileNav'
 
+// import styled from 'styled-components'
+//
+// const StyledBlogTitle = styled.div`
+//   //font-family: 'Montserrat', 'Arial', serif;
+//   //font-family: 'Montserrat';
+//   //font-weight: black;
+// `
+
 const Header = () => (
   <header className="flex items-center justify-between py-10">
     <div>
@@ -14,7 +22,7 @@ const Header = () => (
             <Logo />
           </div>
           {typeof siteMetadata.headerTitle === 'string' ? (
-            <div className="hidden h-6 text-2xl font-semibold sm:block">
+            <div className="hidden text-2xl font-montserrat font-light xs:block">
               {siteMetadata.headerTitle}
             </div>
           ) : (

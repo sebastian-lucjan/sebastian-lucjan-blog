@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: 'Sebastian Lucjan blog', //TODO: change blog name
+  title: 'Sebastian Lucjan blog',
   author: 'Sebastian Lucjan',
-  headerTitle: 'frontic.pl', //TODO: with title to change haderTitle / frontic
+  headerTitle: 'frontic.pl',
   description: 'blog simple description',
   language: 'pl',
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app', //TODO: to change after add domain
@@ -9,9 +9,9 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png', //TODO: make your logo
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com', //TODO: email and socials to add or remove
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
+  email: 'sebastian.lucjan@gmail.com',
+  github: 'https://github.com/sebastian-lucjan',
+  twitter: 'https://twitter.com/Twitter', //todo: add twitter address
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
