@@ -39,6 +39,9 @@ module.exports = {
       { usePrettierrc: true },
     ], // Use our .prettierrc file as source
     'react/react-in-jsx-scope': 'off',
+    'no-unused-vars': 'off',
+    'no-undef': 'off',
+    'react/no-unescaped-entities': 'off',
     'jsx-a11y/click-events-have-key-events': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
     'jsx-a11y/img-redundant-alt': 'off',
