@@ -1,6 +1,6 @@
-import SectionContainer from './SectionContainer'
-import Footer from './Footer'
-import Header from './Header/Header'
+import SectionContainer from './SectionContainer';
+import Footer from './Footer';
+import Header from './Header/Header';
 
 const LayoutWrapper = ({ children }) => {
   return (
@@ -11,7 +11,7 @@ const LayoutWrapper = ({ children }) => {
         <Footer />
       </div>
     </SectionContainer>
-  )
-}
+  );
+};
 
-export default LayoutWrapper
+export default LayoutWrapper;

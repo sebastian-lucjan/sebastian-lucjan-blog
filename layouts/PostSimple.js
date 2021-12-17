@@ -1,13 +1,13 @@
-import Link from '@/components/Link'
-import PageTitle from '@/components/PageTitle'
-import SectionContainer from '@/components/SectionContainer'
-import { BlogSEO } from '@/components/SEO'
-import siteMetadata from '@/data/siteMetadata'
-import formatDate from '@/lib/utils/formatDate'
-import Comments from '@/components/comments'
+import Link from '@/components/Link';
+import PageTitle from '@/components/PageTitle';
+import SectionContainer from '@/components/SectionContainer';
+import { BlogSEO } from '@/components/SEO';
+import siteMetadata from '@/data/siteMetadata';
+import formatDate from '@/lib/utils/formatDate';
+import Comments from '@/components/comments';
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
-  const { date, title } = frontMatter
+  const { date, title } = frontMatter;
 
   return (
     <SectionContainer>
@@ -65,5 +65,5 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
         </div>
       </article>
     </SectionContainer>
-  )
+  );
 }

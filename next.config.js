@@ -1,8 +1,8 @@
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
-})
+});
 
-const withImages = require('next-images')
+const withImages = require('next-images');
 
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
@@ -23,12 +23,12 @@ module.exports = withBundleAnalyzer({
           },
         },
       ],
-    })
+    });
 
     config.module.rules.push({
       test: /\.svg$/,
       use: ['@svgr/webpack'],
-    })
+    });
 
     if (!dev && !isServer) {
       // Replace React with Preact only in client production build
@@ -36,9 +36,9 @@ module.exports = withBundleAnalyzer({
         react: 'preact/compat',
         'react-dom/test-utils': 'preact/test-utils',
         'react-dom': 'preact/compat',
-      })
+      });
     }
 
-    return config
+    return config;
   },
-})
+});
