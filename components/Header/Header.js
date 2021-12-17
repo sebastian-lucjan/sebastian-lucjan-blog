@@ -1,22 +1,21 @@
-import Link from '@/components/Link'
-import siteMetadata from '@/data/siteMetadata'
-import headerNavLinks from '@/data/headerNavLinks'
-import ThemeSwitch from '@/components/ThemeSwitch'
-import MobileNav from '@/components/MobileNav'
-import Image from 'next/image'
-import logoRocket from '../../public/static/logo-icon-60x60.png'
+import Link from '@/components/Link';
+import siteMetadata from '@/data/siteMetadata';
+import headerNavLinks from '@/data/headerNavLinks';
+import ThemeSwitch from '@/components/ThemeSwitch';
+import MobileNav from '@/components/MobileNav';
+import Image from 'next/image';
+import logoRocket from '../../public/static/logo-icon-60x60.png';
 
 const Header = () => (
   <header className="flex items-center justify-between py-10">
     <div>
       <Link href="/" aria-label="Sebastian Lucjan Blog">
         <div className="flex items-center justify-between">
-          <div className="mr-3">
-            <Image src={logoRocket} aria-label="logo" alt="logo rakieta" />
-            {/*<Logo />*/}
+          <div className="mr-6">
+            <Image src={logoRocket} aria-label="logo" alt="logo rakieta" width={60} height={60} />
           </div>
           {typeof siteMetadata.headerTitle === 'string' ? (
-            <div className="hidden text-2xl font-montserrat font-light xs:block">
+            <div className="hidden text-3xl font-montserrat font-medium tracking-wide leading-9 text-gray-900 dark:text-gray-100 xs:block">
               {siteMetadata.headerTitle}
             </div>
           ) : (
@@ -41,6 +40,6 @@ const Header = () => (
       <MobileNav />
     </div>
   </header>
-)
+);
 
-export default Header
+export default Header;

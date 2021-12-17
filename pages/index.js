@@ -3,7 +3,6 @@ import { PageSEO } from '@/components/SEO'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
-import { version } from 'react'
 import formatDate from '@/lib/utils/formatDate'
 
 const MAX_DISPLAY = 5
@@ -13,6 +12,7 @@ export async function getStaticProps() {
 
   return { props: { posts } }
 }
+//todo: tu dodaj moje przedstawienie się!
 
 export default function Home({ posts }) {
   return (
