@@ -1,5 +1,5 @@
 {
-  "name": "tailwind-nextjs-starter-blog",
+  "name": "blog",
   "version": "1.1.1",
   "private": true,
   "scripts": {
@@ -12,6 +12,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^4.5.1",
     "@tailwindcss/forms": "^0.3.2",
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.2.5",
@@ -21,6 +22,7 @@
     "image-size": "1.0.0",
     "mdx-bundler": "^6.0.1",
     "next": "11.1.2",
+    "next-images": "^1.8.1",
     "next-themes": "^0.0.14",
     "postcss": "^8.3.5",
     "preact": "^10.5.13",
@@ -34,7 +36,9 @@
     "remark-footnotes": "^4.0.0",
     "remark-gfm": "^2.0.0",
     "remark-math": "^5.0.0",
+    "sass": "^1.43.2",
     "sharp": "^0.28.3",
+    "styled-components": "^5.3.1",
     "tailwindcss": "^2.2.2",
     "unist-util-visit": "^4.0.0"
   },

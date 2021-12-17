@@ -1,21 +1,21 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
-  language: 'en-us',
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/logo.png',
+  title: 'Sebastian Lucjan blog',
+  author: 'Sebastian Lucjan',
+  headerTitle: 'frontic.pl',
+  description: 'blog simple description',
+  language: 'pl',
+  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app', //TODO: to change after add domain
+  siteRepo: 'https://github.com/sebastian-lucjan/sebastian-lucjan-blog',
+  siteLogo: '/static/images/logo.png', //TODO: make your logo
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
+  email: 'sebastian.lucjan@gmail.com',
+  github: 'https://github.com/sebastian-lucjan',
+  twitter: 'https://twitter.com/Twitter', //todo: add twitter address
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
-  locale: 'en-US',
+  locale: 'pl',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
@@ -64,6 +64,6 @@ const siteMetadata = {
       shortname: process.env.NEXT_PUBLIC_DISQUS_SHORTNAME,
     },
   },
-}
+};
 
-module.exports = siteMetadata
+module.exports = siteMetadata;

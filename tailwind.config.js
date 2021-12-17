@@ -1,5 +1,5 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
-const colors = require('tailwindcss/colors')
+const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors');
 
 module.exports = {
   mode: 'jit',
@@ -18,6 +18,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        montserrat: ['Montserrat', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: colors.teal,
@@ -30,6 +31,20 @@ module.exports = {
           blue: '#93ddfd',
           white: '#fff',
         },
+      },
+      fontWeight: {
+        extralight: 100,
+        thin: 200,
+        light: 300,
+        normal: 400,
+        medium: 500,
+        semibold: 600,
+        bold: 700,
+        extrabold: 800,
+        black: 900,
+      },
+      screens: {
+        xs: '320px',
       },
       typography: (theme) => ({
         DEFAULT: {
@@ -160,4 +175,4 @@ module.exports = {
     typography: ['dark'],
   },
   plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
-}
+};

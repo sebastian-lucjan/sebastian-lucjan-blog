@@ -26,7 +26,9 @@ yarn-error.log*
 # workflow
 todos.js
 
-#next
+# next
 .next/
-.next
-next
+
+# others
+README-copy.md
+README.md
